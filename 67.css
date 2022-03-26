@@ -1,0 +1,32 @@
+/*styless.css*/
+div.yellow{
+background-color: rgb(187, 204, 36);
+}
+div.blue{
+background-color: aqua;
+}
+div.red{
+background-color: rgb(175, 16, 16);
+}
+div.orange{
+background-color: rgb(179, 99, 54);
+}
+div.purple{
+    background-color: rgb(236, 43, 156);
+}
+div.green{
+    background-color: green; 
+}
+header{
+    color: red
+
+}
+body {
+    color: #888
+}
+.header .nav {
+    color: #aaa;
+}
+*{
+margin: 2%;
+}

@@ -1,0 +1,29 @@
+/*styles.css*/
+/*SELECTOR ES UNA ETIQUETA*/
+
+p,h1 { text-align: center;
+color: rgb(44, 37, 139);
+ }
+ /*EL SELECTOR ES UN ID*/
+ #para1 {
+     text-align: right;
+ color: blue;
+    }
+/*EL SELECTOR ES UNA CLASE*/
+.left{
+text-align: left;
+color: rgb(216, 147, 19); 
+}
+p.center {
+   text-align: center;
+   color: red;
+  }
+   p.large {
+font-size: 300%;
+  }
+  h4 {
+    border: 2px solid tomato;
+}
+  body{
+      background-color: blanchedalmond (28, 34, 45);
+}

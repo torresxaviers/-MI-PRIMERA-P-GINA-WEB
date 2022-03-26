@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="71.css">
+     <script src="72.js"></script>
+      <script>
+          function myFunction01() { 
+            document.getElementById("pruebas").innerHTML = "Funcion01";
+         }
+        </script>
+
+</head>
+<body>
+    <h1>DÓNDE PONER EL JS (JUAN SOBRINO)</h1>
+    <p id="pruebas">PRUEBAS</p>
+    <script>
+        document.getElementById("pruebas").innerHTML = "El javascript que se ejecuta al abrir la página";
+    </script>
+
+    <h3>PODEMOS PONERLO DENTRO DE UNA ETIQUETA EN ONCLICK</h3>
+    <button type="button" onclick= 'document.getElementById("pruebas").innerHTML = "Hello JavaScript!"''> Click
+         Me!></button>
+         <br><br>
+
+    <h3>Podemos dentro del head></h3>     
+    <button type="button" onclick='myFunction01()' >Click Me!></button>
+    <br><br>
+
+    <h3>Podemos ponerlo al final del body</h3>
+    <button type="button" onclick='myFunction02()' >Click Me!></button>
+    <br><br>
+
+    <h3>Podemos dentro de un archivo JS</h3>
+    <button type="button" onclick='myFunction03()' >Click Me!></button>
+    <br><br>
+
+    <h3>COPY PEG BOMBILLA</h3>
+    <button onclick="BombillaOn()">Turn on the light</button>
+
+     <img id="myImage" src="img/pic_bulboff.gif" style="width:100px">
+    
+    <button onclick="BombillaOff()">Turn off the light</button>
+    
+    <script>
+        function myFunction02() { 
+            document.getElementById("pruebas").innerHTML = "Function02";
+        }
+    </script>
+    <h3>HTML can change the style of an html element.</h3>
+    <button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">Click Me!</button>
+    <br><br>
+    
+    
+   <!--Esconder texto.-->
+    <button type="button" onclick="Escondertexto()">Click Me!</button>
+    <br><br>
+    <button type="button" onclick="Mostra   rtexto()">Click Me!</button>
+</body>
+</html>

@@ -1,0 +1,32 @@
+/*style*/
+body{
+    background-color: lightblue;
+    background-repeat: no-repeat;
+    background-position: right center;
+ }
+h1 {
+    background-color: green;
+}
+div {
+    background-color: aquamarine;
+}
+p {
+    background-color: darkgoldenrod;
+}
+body {
+    background-image: url("gradient_bg.png");
+    background-image: url("gradient_bg.png");
+    background-repeat: repeat-x;
+    p.dotted {border-style: dotted;}
+    p.dashed {border-style: dashed;}
+    p.solid {border-style: solid;}
+    p.double {border-style: double;}
+    p.groove {border-style: groove;}
+    p.ridge {border-style: ridge;}
+    p.inset {border-style: inset;}
+    p.outset {border-style: outset;}
+    p.none {border-style: none;}
+    p.hidden {border-style: hidden;}
+    p.mix {border-style: dotted dashed solid double;}
+
+}
